@@ -85,9 +85,9 @@ export default function MemoModal({ open, onClose, onSave, tagSuggestions }) {
 
         <div className="mt-6 flex justify-end gap-2">
           <Button variant="ghost" onClick={onClose}>
-            Batal
+            Cancel
           </Button>
-          <Button type="submit">Simpan memo</Button>
+          <Button type="submit">Save</Button>
         </div>
       </form>
     </Modal>

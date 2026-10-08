@@ -58,9 +58,9 @@ export default function CategoryModal({ open, onClose, onSubmit }) {
 
         <div className="flex justify-end gap-2 pt-2">
           <Button variant="ghost" onClick={onClose}>
-            Batal
+            Cancel
           </Button>
-          <Button type="submit">Simpan kategori</Button>
+          <Button type="submit">Save</Button>
         </div>
       </form>
     </Modal>
