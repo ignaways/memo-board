@@ -7,10 +7,10 @@ Aplikasi task management berbasis kategori dengan papan kanban **New**, **On Pro
 - Halaman kategori: buat kategori dan pilih kategori untuk membuka board
 - Tambah dan edit task melalui modal
 - Priority task: Low, Medium, High
-- Deadline dengan penanda terlambat, hari ini, dan mendekati deadline
+- Deadline dengan penanda → terlambat, hari ini, dan mendekati deadline
 - Checklist to do (opsional) yang bisa di-check dan uncheck langsung dari kartu
 - Tag pada task dan filter berdasarkan tag
-- Drag and drop antar kolom (kiri-kanan) dan antar urutan (atas-bawah) dengan animasi, mendukung mouse, layar sentuh, dan keyboard
+- Drag and drop antar kolom (kiri-kanan) dan antar urutan (atas-bawah)
 - Hapus task
 - Progress bar task selesai per kategori
 
@@ -50,7 +50,3 @@ src/
 ├── index.css
 └── main.jsx
 ```
-
-## Deploy
-
-Project ini menggunakan `BrowserRouter`. Konfigurasi rewrite untuk Netlify (`public/_redirects`) dan Vercel (`vercel.json`) sudah disertakan.
