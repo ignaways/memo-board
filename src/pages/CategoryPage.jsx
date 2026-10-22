@@ -16,8 +16,8 @@ export default function CategoryPage() {
         title="Category"
         subtitle="Create or select category"
         action={
-          <Button size="sm" onClick={() => setIsModalOpen(true)}>
-            <PlusIcon size={14} />
+          <Button onClick={() => setIsModalOpen(true)}>
+            <PlusIcon />
             Add Category
           </Button>
         }
