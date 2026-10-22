@@ -19,7 +19,7 @@ export default function PrioritySelect({ id, value, onChange }) {
                 : "border-slate-300 text-slate-600 hover:border-slate-400"
             }`}
           >
-            <PriorityIcon priority={priority.id} />
+            {/*<PriorityIcon priority={priority.id} />*/}
             {priority.label}
           </button>
         );
